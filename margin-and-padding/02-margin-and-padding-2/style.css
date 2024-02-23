@@ -7,21 +7,38 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  font-weight: 500;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  /*Later figured out setting the below width to use margin auto
+  was unnecessary since the div it is a a child of already has
+  a hardcoded width*/
+  width: 130px; 
+  
+  margin: 0 auto;
+  padding: 10px 12.5px;
 }
